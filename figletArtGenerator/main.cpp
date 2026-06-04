@@ -8,15 +8,17 @@
 #include <iostream>
 #include <string>
 #include <cstring>
-#include "font.cpp"
-#include "render.cpp"
+#include "font.h"
+#include "render.h"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
     string userInput;
     cout << "Enter your text: ";
-    cin>> userInput;
+    getline(cin, userInput);
+    if(userInput )
+    renderInput(userInput);
     
     
     return EXIT_SUCCESS;
