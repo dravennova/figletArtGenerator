@@ -17,7 +17,6 @@ int main(int argc, const char * argv[]) {
     string userInput;
     cout << "Enter your text: ";
     getline(cin, userInput);
-    if(userInput )
     renderInput(userInput);
     
     

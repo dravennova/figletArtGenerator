@@ -20,10 +20,6 @@ void renderInput(std::string input) {
 
             char c = input[j];
             std::cout << font[c][i];
-
-            if (j < input.length() - 1) {
-                std::cout << letterSpace;
-            }
         }
 
         std::cout << std::endl;
